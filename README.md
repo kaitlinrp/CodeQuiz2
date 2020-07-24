@@ -1,8 +1,8 @@
 # CodeQuiz2
 
-Test you knowledge of coding thus far. 
+Test you knowledge of coding. 
 
 
 
 
-<bold>c</bold>harlie <strong>o</strong>scar <strong>d</strong>elta <strong>e</strong>cho
+<strong>c</strong>harlie <strong>o</strong>scar <strong>d</strong>elta <strong>e</strong>cho
