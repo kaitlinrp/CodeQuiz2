@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kaitlin's Coding Quiz</title>
+   <div style="background-image: url('https://www.vippng.com/png/full/380-3801575_background-image-electric-blue.png');">
+ <!--LINK CSS-->
+ <link rel="stylesheet" href="Assets/style.css" />
+</head>
+<body>
+    <!--HIGHSCORES AND TIMER-->
+  <div class="scores"><a href="highscores.html">Highscores</a></div>
+  <div class="timer">Time: <span id="time">0</span></div>
+  <!--START SCREEN-->
+  <div class="wrapper">
+    <div id="start-screen" class="start">
+      <h1>Coding Quiz</h1>
+      <p>
+        Test your coding skills!<br> Share with friends and see who wears the Coding Crown 👑<br> Remember to choose the correct answer or pay the price of time. 
+      </p>
+      <button id="start">Start</button>
+    </div>
+
+    <!--DIVS FOR QUESTIONS AND END SCREEN-->
+    <div id="questions" class="hide">
+      <h2 id="question-title"></h2>
+      <div id="choices" class="choices"></div>
+    </div>
+    <div id="end-screen" class="hide">
+      <h2>Complete, great job!</h2>
+      <p>Your final score is <span id="final-score"></span>.</p>
+      <p>
+        Enter initials: <input type="text" id="initials" max="3" />
+        <button id="submit">Submit</button>
+      </p>
+    </div>
+    <!--FOR ANSWER FEEDBACK-->
+    <div id="feedback" class="feedback hide"></div>
+  </div>
+  <!--LINK JS-->
+  <script src="Assets/questions.js"></script>
+  <script src="Assets/script.js"></script>
+  <script src="Assets/elements.js"></script>
+</div>
+
+   
+  </body>
+</html>
