@@ -28,8 +28,8 @@ var questions = [
     },
     {
       title:
-        "A very useful tool used during development and debugging for printing content to the debugger is:",
-      choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
+        "A loop that never ends is referred to as a(n):",
+      choices: ["While loop", "Infinite loop", "Recursive loop", ") for loop"],
       answer: "console.log"
     }
   ];
